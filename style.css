@@ -43,11 +43,19 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: flex-end; /* Alinha as imagens pela base se tiverem alturas diferentes */
+}
+
 .content-img {
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
     display: block;
-    margin: 15px auto;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
