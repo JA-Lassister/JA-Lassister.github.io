@@ -43,6 +43,15 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
+.content-img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 section {
     padding: 40px 0;
     margin-bottom: 20px;
@@ -119,7 +128,6 @@ h2 {
     color: #007acc;
     text-decoration: none;
     font-weight: 500;
-    padding: 5px 0;
     transition: color 0.3s;
 }
 
