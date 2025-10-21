@@ -143,15 +143,6 @@ h2 {
     color: #005f99;
     text-decoration: underline;
 }
-
-footer {
-    background-color: #1a1a1a;
-    color: #ccc;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 0.9em;
-}
-
 @media (max-width: 600px) {
     .hero {
         padding: 60px 0;
