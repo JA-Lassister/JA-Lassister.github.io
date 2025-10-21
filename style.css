@@ -49,11 +49,11 @@ body {
     gap: 15px;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    align-items: flex-end; /* Alinha as imagens pela base se tiverem alturas diferentes */
+    align-items: flex-end; /* Alinha as imagens pela base */
 }
 
 .content-img {
-    max-width: 120px;
+    max-width: 100px; /* Tamanho para caber mais imagens na linha */
     height: auto;
     display: block;
     border-radius: 5px;
@@ -143,6 +143,7 @@ h2 {
     color: #005f99;
     text-decoration: underline;
 }
+
 @media (max-width: 600px) {
     .hero {
         padding: 60px 0;
@@ -152,5 +153,8 @@ h2 {
     }
     h2 {
         font-size: 1.5em;
+    }
+    .content-img {
+        max-width: 80px; /* Reduz ainda mais em telas pequenas */
     }
 }
